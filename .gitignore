@@ -1,0 +1,31 @@
+# Node dependencies
+node_modules/
+/client/node_modules/
+/server/node_modules/
+
+# Environment variables
+# These files contain secrets and should not be in version control.
+# Commit .env.example instead.
+.env
+server/.env
+client/.env
+
+# SSL Certificates and Private Keys
+# Private keys must NEVER be committed.
+server/certs/
+
+# Build output
+dist/
+build/
+
+# Logs
+logs
+*.log
+server/.copilot-token.json
+server/open-router-logs.json
+server/webchat-settings.json
+server/package-lock.json
+package-lock.json
+server/http-logs.json
+server/copilot-logs.json
+server/claude_desktop_config.json
